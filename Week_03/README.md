@@ -11,7 +11,7 @@
 - 将待解决的问题拆分成多个子问题，子问题再继续向下拆分，直到到达无法拆分的最小子问题，并将其解决。
 - 最后将所有子问题的解进行合并，从而获得原始问题的答案
 <br/>
-![divide_conquer](divide_conquer.jpg "divide_conquer")
+![https://github.com/jimily/algorithm011-class01/blob/master/Week_03/divide_conquer.jpg](divide_conquer.jpg "divide_conquer")
 
 ##### 回溯
 - 尝试构建问题的解，过程中及时移除不满足问题约束的解
