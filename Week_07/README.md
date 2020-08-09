@@ -67,3 +67,6 @@ private void dfs(int row, int col, Trie current, List<String> result) {
     this.board[row][col] = letter;
 }
 ```
+1. 需要遍历board的每个格子m * n
+2. 每个格子，最坏的情况是有4个有效方向探索，而在回溯过程中，最多有3个方向可以探索，一个单词假设长度为L，则dfs的过程为4 * 3 ^ (L - 1)。
+3. 查找答案的时间复杂度为O(m * n * 4 * 3 ^ (L - 1))。
