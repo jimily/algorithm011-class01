@@ -27,7 +27,7 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+/*class Solution {
     public int reversePairs(int[] nums) {
         return mergeSort(nums, 0, nums.length - 1);
     }
@@ -67,5 +67,5 @@ class Solution {
             System.out.print(num + ",");
         }
     }
-}
+}*/
 //leetcode submit region end(Prohibit modification and deletion)
